@@ -30,7 +30,7 @@ var Constants = {
   PRODUCT_SHORT_DESCRIPTION: "Facilitating Bitcoin adoption by providing market data and a peer-to-peer banking marketplace. Lend, borrow, hedge, or create your own fancy Bitcoin derivative.",
   TWITTER_USERNAME: "nodejs",
   TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "c7b2fc124c2229cdfacd0609dfd3fd4d",
+  COINBASE_PREORDER_DATA_CODE: "95009b469de590b62efc4d5c91f2dae5",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
