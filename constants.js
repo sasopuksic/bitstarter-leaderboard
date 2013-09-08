@@ -22,15 +22,15 @@
 */
 var Constants = {
   APP_NAME: "Bitstarter", 
-  FUNDING_TARGET: 10.00,
+  FUNDING_TARGET: 100.00,
   FUNDING_UNIT_SYMBOL: "mBTC",
   FUNDING_SI_SCALE: 1000,
   FUNDING_END_DATE: new Date("September 8, 2013"),
-  PRODUCT_NAME: "Product: Development Version",
-  PRODUCT_SHORT_DESCRIPTION: "One sentence description.",
+  PRODUCT_NAME: "Bitcoin Banking",
+  PRODUCT_SHORT_DESCRIPTION: "Facilitating Bitcoin adoption by providing market data and a peer-to-peer banking marketplace. Lend, borrow, hedge, or create your own fancy Bitcoin derivative.",
   TWITTER_USERNAME: "nodejs",
   TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "13b56883764b54e6ab56fef3bcc7229c",
+  COINBASE_PREORDER_DATA_CODE: "c7b2fc124c2229cdfacd0609dfd3fd4d",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
