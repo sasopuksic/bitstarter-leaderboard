@@ -22,7 +22,7 @@
 */
 var Constants = {
   APP_NAME: "Bitstarter", 
-  FUNDING_TARGET: 100.00,
+  FUNDING_TARGET: 500.00,
   FUNDING_UNIT_SYMBOL: "mBTC",
   FUNDING_SI_SCALE: 1000,
   FUNDING_END_DATE: new Date("September 8, 2013"),
